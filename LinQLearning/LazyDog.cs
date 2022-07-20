@@ -42,9 +42,10 @@ namespace LinQLearning
                  * This case (3 objects with setted propperties Length and Words):
                  * Length: 3 | Words: the, fox, the, dog
                  * Length: 4 | Words: over, lazy
-                 * Length: 4 | Words: quick, brown, jumps
+                 * Length: 5 | Words: quick, brown, jumps
+                 * .Key is 3, 4 or 5 and means 
                  */
-                .Select(group => new { Length = group.Key, Words = group }) 
+                .Select(group => new { Length = group.Key, Words = group })
                 /*
                  * Just order the objects created by the select.
                  */
@@ -63,6 +64,28 @@ namespace LinQLearning
             }
         }
 
+        public void ExpressionSyntax()
+        {
+            //DATA SOURCE
+            string sentence = "the quick brown fox jumps over the lazy dog";
+
+            //split into a collection of words
+            string[] words = sentence.Split(' ');
+
+            //QUERY
+            var query = from word in words
+                        group word.ToUpper() by word.Length into gr
+                        orderby gr.Key
+                        select new { Length = gr.Key, Words = gr };
+
+            //EXECUTION
+            foreach (var obj in query) //obj is just a name, not the object itself. Same with gr above.
+            {
+                Console.WriteLine("Words of length {0}:", obj.Length);
+                foreach (string word in obj.Words)
+                    Console.WriteLine(word);
+            }
+        }
 
     }
 }

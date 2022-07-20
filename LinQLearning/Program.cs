@@ -6,9 +6,11 @@ namespace LinQLearning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("First method");
             LazyDog lz = new LazyDog();
             lz.MethodSyntax();
+            Console.WriteLine("Second method");
+            lz.ExpressionSyntax();
         }
     }
 }
