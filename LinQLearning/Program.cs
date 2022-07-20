@@ -18,6 +18,8 @@ namespace LinQLearning
             Text t = new Text();
             // t.Test1(changingText);
             t.Test2(changingText);
+            Console.WriteLine("");
+            t.Test3();
         }
     }
 }
