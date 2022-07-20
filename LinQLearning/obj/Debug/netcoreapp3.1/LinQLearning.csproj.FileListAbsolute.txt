@@ -1,0 +1,14 @@
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.exe
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.deps.json
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.runtimeconfig.json
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.runtimeconfig.dev.json
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.dll
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\bin\Debug\netcoreapp3.1\LinQLearning.pdb
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.csproj.AssemblyReference.cache
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.AssemblyInfoInputs.cache
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.AssemblyInfo.cs
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.csproj.CoreCompileInputs.cache
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.dll
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.pdb
+C:\Users\p-dalegria\source\repos\LinQLearning\LinQLearning\obj\Debug\netcoreapp3.1\LinQLearning.genruntimeconfig.cache
