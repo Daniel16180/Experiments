@@ -23,12 +23,17 @@ namespace LinQLearning
         }
 
         public void Test2(string text) {
+            //It´s counting the . and , as part of the words.
             string[] words = text.Split(" ");
 
-            foreach (var word in words.OrderBy(or => or.Length))
+            foreach (var word in words.OrderByDescending(or => or.Length) )
             {
                 Console.WriteLine(word);
             }
         }
+
+        //Example with object array: https://docs.microsoft.com/es-es/dotnet/api/system.linq.enumerable.orderby?view=net-6.0
+        //Interesting example with contains and ternary: https://docs.microsoft.com/es-es/dotnet/api/system.linq.enumerable.contains?view=net-6.0
+        //Examples count, max, min: https://docs.microsoft.com/es-es/dotnet/api/system.linq.enumerable.groupby?view=net-6.0
     }
 }
