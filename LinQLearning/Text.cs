@@ -54,5 +54,9 @@ namespace LinQLearning
             foreach (string str in query2)
                 Console.WriteLine(str);
         }
+
+        //contains example: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/quantifier-operations
+        //ALso very interesting chunk in partitioning data: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/partitioning-data
+
     }
 }

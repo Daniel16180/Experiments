@@ -14,12 +14,18 @@ namespace LinQLearning
             //lz.ExpressionSyntax();
 
             //TEXT
-            string changingText = "A sorting operation orders the elements of a sequence based on one or more attributes. The first sort criterion performs a primary sort on the elements. By specifying a second sort criterion, you can sort the elements within each primary sort group.";
-            Text t = new Text();
-            // t.Test1(changingText);
-            t.Test2(changingText);
-            Console.WriteLine("");
-            t.Test3();
+            //string changingText = "A sorting operation orders the elements of a sequence based on one or more attributes. The first sort criterion performs a primary sort on the elements. By specifying a second sort criterion, you can sort the elements within each primary sort group.";
+            //Text t = new Text();
+            //// t.Test1(changingText);
+            //t.Test2(changingText);
+            //Console.WriteLine("");
+            //t.Test3();
+
+            //SHUFFLE
+            Shuffle shuffle = new Shuffle();
+            shuffle.ShuffleMethod();
+            Console.WriteLine("\n Second loop");
+            shuffle.ShuffleMethod();
         }
     }
 }
